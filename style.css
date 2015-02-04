@@ -1,10 +1,36 @@
-.nimi{
-	width: 300px;
-	border: solid;
-	border-color: #000;
+
+.chat{
+	max-width: 300px;
+	border: 1px solid;
+	border-color: #bbb;
+	
 }
+
+
+.nimi{
+	width: 100%;
+	padding: 10px;
+	border-bottom: 0;
+	margin: 0;
+}
+
+.viestit{
+	height: 200px;
+	overflow-y: scroll;
+	padding: 10px;
+}
+
+.viestit,
+.viesti,
+.nimi{
+	border: 1px solid;
+	border-color: #bbb;
+	
+	
+}
+
 .viesti{
-	width: 300px;
-	border: solid;
-	border-color: #000;
+	width: 100%;
+	max-width: 100%;
+	padding: 10px;
 }
